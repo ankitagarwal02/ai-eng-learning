@@ -1,0 +1,2 @@
+langgraph>=0.2
+langchain>=0.3
