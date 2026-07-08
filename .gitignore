@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Runtime output from tutorials
+ticket_report.json
+results.json
+results.csv
+*.manifest.json
+redteam_report.json
+redteam_baseline.json
+eval_baseline.json
+
+# ChromaDB persistent stores
+chroma_persistent/
+chroma_db/
+mcp-sandbox/
+data/
+
+# Notebooks
+.ipynb_checkpoints/
